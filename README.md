@@ -1,4 +1,4 @@
-First, check if you have the latest node version (v16.13.1)
+First, check if you have the latest node version (v16.13.1).
 
 Then, run the following commands to initialize and build the monorepo via lerna:
 
