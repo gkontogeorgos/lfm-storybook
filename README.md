@@ -8,4 +8,5 @@ Then, run the following commands to initialize and build the monorepo via lerna:
 4. ~ yarn build
 
 Last, but not least, navigate to packages/react and initialize the storybook with:
+
 ~ yarn start-storybook
