@@ -1,7 +1,6 @@
-import FontSize from './FontSize'
-import Spacing from './Spacing'
+import FontSize from "./FontSize";
+import FontStyle from "./FontStyle";
+import FontWeight from "./FontWeight";
+import Spacing from "./Spacing";
 
-export {
-    FontSize,
-    Spacing
-}
+export { FontSize, FontStyle, FontWeight, Spacing };

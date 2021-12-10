@@ -8,7 +8,7 @@ import { Spacing } from "@ds.e/foundation";
 import "@ds.e/scss/lib/Utilities.css";
 
 export default {
-  title: "Atoms | Color",
+  title: "Design System/Atoms/Color",
 };
 
 export const Common = () => <Color hexCode={text("HexCode", "pink")} />;

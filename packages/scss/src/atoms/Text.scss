@@ -1,11 +1,23 @@
 @import "foundation/all";
 
 .dse-text {
-    margin: 0;
+  margin: 0;
 }
 
 @each $size, $value in $fs {
-    .dse-text-#{$size} {
-        font-size: $value;
-    }
+  .dse-text-#{$size} {
+    font-size: $value;
+  }
+}
+
+@each $fontStyle, $value in $fst {
+  .dse-text-style-#{$fontStyle} {
+    font-style: $value;
+  }
+}
+
+@each $fontWeight, $value in $fsw {
+  .dse-text-weight-#{$fontWeight} {
+    font-weight: $value;
+  }
 }
