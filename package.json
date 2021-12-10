@@ -10,7 +10,6 @@
     "@storybook/preset-typescript": "^3.0.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
-    "husky": "^4.2.5",
     "lerna": "^4.0.0"
   },
   "private": true,
@@ -30,7 +29,8 @@
     "publish": "yarn test && yarn build && yarn lerna publish",
     "commit": "yarn git-cz",
     "test:chromatic": "yarn lerna run test:chromatic",
-    "build:storybook": "yarn build && yarn lerna run build-storybook"
+    "build:storybook": "yarn build && yarn lerna run build-storybook",
+    "start:storybook": "yarn lerna run start-storybook"
   },
   "resolutions": {
     "@types/react": "^17.0.37"
@@ -46,6 +46,7 @@
     }
   },
   "dependencies": {
+    "husky": "^7.0.4",
     "parcel-bundler": "^1.12.5"
   }
 }
