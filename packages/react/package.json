@@ -33,7 +33,7 @@
     "dev": "yarn build --watch",
     "test": "jest --verbose",
     "test:watch": "yarn test --watch",
-    "start-storybook": "start-storybook",
+    "start-storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
     "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },

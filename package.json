@@ -30,7 +30,8 @@
     "commit": "yarn git-cz",
     "test:chromatic": "yarn lerna run test:chromatic",
     "build:storybook": "yarn build && yarn lerna run build-storybook",
-    "start:storybook": "yarn lerna run start-storybook"
+    "start:storybook": "yarn lerna run start-storybook",
+    "storybook": "yarn lerna run build && yarn lerna run start-storybook"
   },
   "resolutions": {
     "@types/react": "^17.0.37"
